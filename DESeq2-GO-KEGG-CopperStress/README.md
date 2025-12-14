@@ -1,21 +1,38 @@
-# DESeq2 Differential Expression and GO/KEGG Enrichment Analysis
+# DESeq2 Differential Expression and GO/KEGG Enrichment Pipeline
 
-This repository contains an **RNA-seq differential expression and functional enrichment pipeline**
+This repository provides a complete **RNA-seq differential expression and functional enrichment analysis workflow**
 using **DESeq2** and **clusterProfiler**.
 
-The analysis compares **Copper-treated control (Cu_Cnt)** vs **Copper-treated WD (Cu_WD)** samples
-and performs:
+The pipeline compares **Copper-treated Control (Cu_Cnt)** and **Copper-treated WD (Cu_WD)** samples and performs:
+
 - Differential gene expression analysis
-- PCA visualization
+- PCA for sample clustering
 - GO Biological Process enrichment
 - KEGG pathway enrichment
-- Publication-ready barplots
+- Publication-ready visualizations
+
+---
+
+## 📌 Analysis Overview
+
+**Comparison:**  
+- Cu_Cnt (n = 6) vs Cu_WD (n = 6)
+
+**Organism:**  
+- Human (*Homo sapiens*)
+
+**Gene IDs:**  
+- ENSEMBL (converted to ENTREZ for enrichment)
+
+**Statistical thresholds:**  
+- |log2FoldChange| ≥ 2  
+- Adjusted p-value (BH) ≤ 0.05  
 
 ---
 
 ## 📦 Requirements
 
-### R (≥ 4.1 recommended)
+### R (version ≥ 4.1 recommended)
 
 Install required packages:
 
