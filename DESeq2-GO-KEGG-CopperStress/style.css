@@ -1,0 +1,28 @@
+DESeq2-GO-KEGG-CopperStress/
+│
+├── README.md
+├── scripts/
+│   └── deseq2_go_kegg_analysis.R
+│
+├── input/
+│   └── counts_matrix.tsv
+│
+├── results/
+│   ├── DESeq2/
+│   │   ├── DESeq2_all_results.csv
+│   │   └── DESeq2_significant_DEGs.csv
+│   │
+│   ├── enrichment/
+│   │   ├── GO_UP_ORA.tsv
+│   │   ├── GO_DOWN_ORA.tsv
+│   │   ├── KEGG_UP_ORA.tsv
+│   │   └── KEGG_DOWN_ORA.tsv
+│   │
+│   └── plots/
+│       ├── PCA_plot.pdf
+│       ├── GO_UP_barplot.pdf
+│       ├── GO_DOWN_barplot.pdf
+│       ├── KEGG_UP_barplot.pdf
+│       └── KEGG_DOWN_barplot.pdf
+│
+└── .gitignore
