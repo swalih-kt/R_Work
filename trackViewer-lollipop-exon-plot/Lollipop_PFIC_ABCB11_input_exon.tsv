@@ -1,0 +1,389 @@
+Chr-pos-ref-alt	freq	Func.refGeneWithVer	ExonicFunc.refGeneWithVer	Exon	RANK
+chr2-168944721-G-A	9	exonic	nonsynonymous SNV	exon21	6
+chr2-169013281-GT-G	4	exonic	frameshift deletion	exon5	1
+chr2-168927317-G-A	19	exonic	nonsynonymous SNV	exon26	6
+chr2-168930694-G-A	15	exonic	nonsynonymous SNV	exon25	6
+chr2-168935229-C-T	5	exonic	nonsynonymous SNV	exon23	6
+chr2-168969454-T-C	6	exonic	nonsynonymous SNV	exon16	6
+chr2-168924798-A-T	2	exonic	stopgain	exon27	9
+chr2-168986131-A-T	5	exonic	stopgain	exon10	9
+chr2-168976642-G-A	8	exonic	stopgain	exon12	9
+chr2-168993817-G-A	7	exonic	nonsynonymous SNV	exon8	6
+chr2-168971902-AT-TA	1	exonic	stopgain	exon14	9
+chr2-168995412-A-G	2	exonic	nonsynonymous SNV	exon7	6
+chr2-168973785-C-T	2	exonic	nonsynonymous SNV	exon13	6
+chr2-168932467-A-T	1	exonic	stopgain	exon24	9
+chr2-168973741-G-A	8	exonic	stopgain	exon13	9
+chr2-169018125-T-C	2	exonic	startloss	exon2	8
+chr2-169013275-C-T	4	exonic	nonsynonymous SNV	exon5	6
+chr2-168990819-T-C	45	exonic	nonsynonymous SNV	exon9	6
+chr2-168971992-A-G	12	exonic	nonsynonymous SNV	exon14	6
+chr2-168970131-G-A	14	exonic	stopgain	exon15	9
+chr2-168964205-C-A	7	splicing	splicing	exon18	7
+chr2-168970146-C-T	9	exonic	nonsynonymous SNV	exon15	6
+chr2-168924730-C-T	10	exonic	nonsynonymous SNV	exon27	6
+chr2-168958011-C-T	8	exonic	nonsynonymous SNV	exon19	6
+chr2-168936262-G-A	11	exonic	stopgain	exon22	9
+chr2-168930808-G-A	7	exonic	stopgain	exon25	9
+chr2-168935296-C-T	17	exonic	nonsynonymous SNV	exon23	6
+chr2-169013342-A-G	6	exonic	nonsynonymous SNV	exon5	6
+chr2-168995461-C-T	6	exonic	nonsynonymous SNV	exon7	6
+chr2-168964280-G-A	2	exonic	stopgain	exon18	9
+chr2-168971989-C-T	1	exonic	nonsynonymous SNV	exon14	6
+chr2-168944609-T-G	1	exonic	nonsynonymous SNV	exon21	6
+chr2-168932418-G-A	2	exonic	stopgain	exon24	9
+chr2-168923713-C-A	3	exonic	nonsynonymous SNV	exon28	6
+chr2-168972025-C-T	8	exonic	nonsynonymous SNV	exon14	6
+chr2-168944616-G-A	1	exonic	stopgain	exon21	9
+chr2-168944726-CT-C	4	exonic	frameshift deletion	exon21	1
+chr2-168972040-T-C	34	exonic	nonsynonymous SNV	exon14	6
+chr2-168944621-G-A	8	exonic	nonsynonymous SNV	exon21	6
+chr2-168973733-A-T	5	exonic	stopgain	exon13	9
+chr2-168996650-GATA-T	1	exonic	nonframeshift substitution	exon6	5
+chr2-168973724-A-T	3	exonic	stopgain	exon13	9
+chr2-168936341-G-C	4	exonic	nonsynonymous SNV	exon22	6
+chr2-168970145-G-A	7	exonic	nonsynonymous SNV	exon15	6
+chr2-168986204-C-T	3	exonic	stopgain	exon10	9
+chr2-169018104-G-A	5	exonic	stopgain	exon2	9
+chr2-168935398-G-A	7	exonic	nonsynonymous SNV	exon23	6
+chr2-168986238-CTT-C	3	exonic	frameshift deletion	exon10	1
+chr2-168923786-G-A	3	exonic	nonsynonymous SNV	exon28	6
+chr2-168971847-C-A	4	exonic	nonsynonymous SNV	exon14	6
+chr2-168993883-CT-A	2	splicing	splicing	exon8	7
+chr2-169014308-G-A	8	exonic	stopgain	exon4	9
+chr2-168996703-C-T	6	exonic	nonsynonymous SNV	exon6	6
+chr2-168958087-TG-T	3	exonic	frameshift deletion	exon19	1
+chr2-168972026-G-A	3	exonic	nonsynonymous SNV	exon14	6
+chr2-168973780-TG-T	1	exonic	frameshift deletion	exon13	1
+chr2-168964238-CTA-C	1	exonic	frameshift deletion	exon18	1
+chr2-168979907-C-A	3	exonic	stopgain	exon11	9
+chr2-168930694-G-C	3	exonic	nonsynonymous SNV	exon25	6
+chr2-168924731-G-A	10	exonic	nonsynonymous SNV	exon27	6
+chr2-168973734-T-C	5	exonic	nonsynonymous SNV	exon13	6
+chr2-168930684-T-A	2	exonic	nonsynonymous SNV	exon25	6
+chr2-168927181-T-C	7	exonic	nonsynonymous SNV	exon26	6
+chr2-168944925-G-A	2	exonic	stopgain	exon20	9
+chr2-168973741-GC-G	1	exonic	frameshift deletion	exon13	1
+chr2-168976575-A-T	1	splicing	splicing	exon12	7
+chr2-168927316-C-T	11	exonic	nonsynonymous SNV	exon26	6
+chr2-168927314-A-G	5	exonic	nonsynonymous SNV	exon26	6
+chr2-168944888-C-T	1	exonic	nonsynonymous SNV	exon20	6
+chr2-168930853-G-A	1	exonic	stopgain	exon25	9
+chr2-168936256-T-TATCTC	8	exonic	frameshift insertion	exon22	2
+chr2-168995413-T-C	1	exonic	nonsynonymous SNV	exon7	6
+chr2-168990801-C-T	3	exonic	nonsynonymous SNV	exon9	6
+chr2-168990859-C-G	5	exonic	nonsynonymous SNV	exon9	6
+chr2-168979916-AG-A	1	exonic	frameshift deletion	exon11	1
+chr2-168990799-AC-A	4	splicing	splicing	exon9	7
+chr2-168971864-T-G	7	exonic	nonsynonymous SNV	exon14	6
+chr2-168932442-G-A	6	exonic	nonsynonymous SNV	exon24	6
+chr2-168930693-C-T	4	exonic	nonsynonymous SNV	exon25	6
+chr2-168969393-CAA-C	4	exonic	frameshift deletion	exon16	1
+chr2-168923684-C-A	8	exonic	stopgain	exon28	9
+chr2-168976674-T-C	1	exonic	nonsynonymous SNV	exon12	6
+chr2-168932421-G-A	8	exonic	stopgain	exon24	9
+chr2-168923820-C-CG	2	exonic	frameshift insertion	exon28	2
+chr2-168973768-T-C	4	exonic	nonsynonymous SNV	exon13	6
+chr2-168923785-C-T	4	exonic	nonsynonymous SNV	exon28	6
+chr2-168996709-C-T	8	exonic	nonsynonymous SNV	exon6	6
+chr2-168969487-G-GT	1	exonic	frameshift insertion	exon16	2
+chr2-168969538-T-TTG	1	exonic	frameshift insertion	exon16	2
+chr2-168973740-C-T	10	exonic	nonsynonymous SNV	exon13	6
+chr2-168986281-A-C	1	exonic	stopgain	exon10	9
+chr2-168972043-A-C	1	exonic	nonsynonymous SNV	exon14	6
+chr2-168930778-AG-A	3	exonic	frameshift deletion	exon25	1
+chr2-168986200-ACACCACACGAATCCAGTAAAGAATCCCATCACTATTCCTTTTCTAATTCCCCAACG-A	1	exonic	frameshift deletion	exon10	1
+chr2-169013359-TG-T	2	exonic	frameshift deletion	exon5	1
+chr2-168924794-T-G	8	exonic	nonsynonymous SNV	exon27	6
+chr2-168944721-G-C	1	exonic	nonsynonymous SNV	exon21	6
+chr2-168976590-C-G	5	exonic	nonsynonymous SNV	exon12	6
+chr2-168973761-G-A	6	exonic	nonsynonymous SNV	exon13	6
+chr2-168996722-C-A	2	exonic	synonymous SNV	exon6	10
+chr2-168990879-G-T	2	exonic	nonsynonymous SNV	exon9	6
+chr2-168936285-CTGG-C	1	exonic	nonframeshift deletion	exon22	4
+chr2-168924719-G-A	6	exonic	stopgain	exon27	9
+chr2-168924760-C-T	2	exonic	nonsynonymous SNV	exon27	6
+chr2-168927282-CA-C	6	exonic	frameshift deletion	exon26	1
+chr2-169018052-G-T	5	exonic	stopgain	exon2	9
+chr2-168995348-C-T	5	splicing	splicing	exon7	7
+chr2-168969479-C-CA	1	exonic	frameshift insertion	exon16	2
+chr2-168973788-AC-A	1	exonic	stopgain	exon13	9
+chr2-168996637-G-A	1	exonic	stopgain	exon6	9
+chr2-168993781-C-A	4	exonic	nonsynonymous SNV	exon8	6
+chr2-168964205-C-T	5	splicing	splicing	exon18	7
+chr2-168993715-C-T	4	exonic	nonsynonymous SNV	exon8	6
+chr2-168927276-AAAC-A	3	exonic	nonframeshift deletion	exon26	4
+chr2-169014355-C-A	1	splicing	splicing	exon4	7
+chr2-168969533-T-TTG	2	exonic	frameshift insertion	exon16	2
+chr2-168972025-C-G	5	exonic	nonsynonymous SNV	exon14	6
+chr2-169014401-ATGGGAAATTCTCCCTAGGTGGTGATTTTATGAGTTATTCTTTAGTAAGAAAGAAAATCCCCACTGGCTGGAAAATTCTGGCCAAACCTAGTATCTTAAACACAAGCTTTATTCTTCTAGATTTCCCTCTTCTAGAGATTTCAGTATAGCTCAATCTCAGGTTCACTAGCGATTCACAGAGATGAACACCTGAGAGGTATGGAGAGAAAGTAAAAAGTCCTCTATACTCCCAGTTATACCAACAAATAACTCTTTGCCCTCAGTCATGACCCTCAATCTATTTGTGACTGCATTTCCTCATGGGTAAGTTGAAGTGGTTGGATTAGCTAATTTTAAAGCTTCCTCATGCTTAAAAATATTACAACTACATTAAATAATGTTGATAATGATGAAAAATTCAAGAACATGCCCACACTTTTCATAGAATCATATTTCCTTAATATTTCCCATTCATTTCATTTCCCATAAGGCCATGTTTAACCTGTATTTGACCTCTTCAACTTCGGGGATCTTGACTTAACCTGAGTCACGCAGTCCATGAATACACCCTGGACCTTGCTGTCACCAGGAACTACTGTCTGACATGTTTAACTCCTTGGCACTCTGTGACTGCCCATGTACCTCATTTTCTCGCTTCCTTCCTCCTTCCACACCTATTTGTCAACCTCACTTGAGCCATGCAGTCCTTTAAATCCTTCATTTCCTTCCATTGCTAAACCCCATTAAGATTTTGCTTCCTTCCCCATGCAGCCAAGGTCCCTCTGCCAGGCATTTGAACCACACTCTCACCATCATCCTCAATTATTTTCTCTACATCATCCTTGTAAACTTCATCCTGCATCCATCCAGCTGTTTGCCCTCTTCTCCTTAAGCCAGGCTGCTGGGCCTGCTGGACACAACCTCACCACCTTGTGAATGGATACCAACACAGGCAGAGTCTAGTACTCAGCTGCCCTAAGCTTCCCTTCTGGCCCAGAAAAGAATCCTAAATTTTTTCTGAGACTCCCCACGGTCTGGCCCTTGGCTCTCTGACCTCACCTCCTCCAACTATATTCTAGTTCTCAACACCCCACTTGCCTGGCCTCTTGCTGACCTTTGTCCATGCCCAACTGTTCCCACCTCTGGGTGCGGGCACCTGCTACTCCTTCTCCCCAGGTGCATTTTCTTTAGGTAACCACAGGGACAGCTCCATCACCTCCGCTAGACCTTCCTTTGAAATCACCTACTCAACAGAGTCTTGCCTGGCCAAAGTCTTTAAAATTTCAACCCCACCCCCCACGCACCATTTCATAGCTCCATTTCCAGTTTATTTTTCCTTCTCAGAAAGAAAGTGATAGATTATCACTAGCTACCATGCTATACATTTGATTTATTTACAATGTTTATTATATCTCCCTCACTAAAATGTAAACTCCTCAAGGGCCAACATTTTTGCCTATTTTGTTCTTTTCTATACCCGCAGCACCTACAATAGTGTCTGATACCAAATAGACACTCAATATTTGCAAAACGAATGAATTAATGGAGTGAATGTGTGCTCTCCAGCTCAACATGCAATGCACACTTCATTTCTCTGCGGATTGCTCCCATTCTTCTCAGCAGCTCTGGCAAAATTTGCTGTGATCTTCTCATTCCATGCTCACCTCCTCTAAAAACAAAGCAACTCATTCAACTTCCTACTCATCCTCTCCTTGCCATTCATCTACATCCACACCCATTTTTTAAACTTCCCACGCAATAAGAAACGTGTGGCTCTCAGAGGCCCAGGCTGACCTGACCACTCCCAGCCCAAAGCTAATCTTACCACTCCCACTTCCTCCCTCTGCTGTGAATTACTTAAAATTTCTAAAATACCTTTAACCCTTCCGTTTCCACCACCTCCACTTCAGGAACTTACCTGATGCCTCACTTCTGTCTTCTAAATTAGACCTCATCTAATCCCGCCTTCATACCAGACTGTGATTAGCTGATATGTGTTCTATATGAGAATTCAAAATCTTTAGCTGAACAGAAATATGCAATAATGACACTTTAGGTCTCTACTCTTTGCCTGTGGCAAGAATTTGGGGTTTAGAGACCTCTCCAATGCCCATGAAATTATACTTGTTGTTCAACTTTTCCTCCTCCCTCTTAGGTCAGGAGTTCTGTGCCATTCCTGAATACAGAGGGGACATTTGAACCTAACCTAGAAGGGATATTCCAAAAGGTTTTTAAAATCAAATTATAGTAATATTTTAAAGAGAAAAAGAATGGATTGTATATATTATTTTATATGAAGTGCAATGTGCATGAAAGTATTCTCTGCTTTGTGCCTTTGATATGAATATTATGGAGTTATTCTAGAAAAGATGCTGCATTGTTGAAATCAGTCACTTACCTTGATTTCTTATCATTATTATCTGTCAGAAAAAAAAATCAACGCAAAAAAGCAGTTAATAATAATGACAAAATGCAACGCAGTCATTAAGAAATTTGCTCTAGAAAAATATTCCTATAAATTACCTTTATTCATGGAATATTAGCAAATGACTATTTGCCTTTTCTTTCTTCCTGCTCATATTGTCTCTCTCTATCTTTCTACACACACACACACACACACACACACACACACACACACACACACGAAGACACTCGTTTAGGGTCCAGGAGTGCTGCTACCTTTACTCATTTATGGACTTTTCTTCAGGACATGAAATATTTGCATCATCTGAATATCAAATGGACAGCAACTTTTTGAACTACAAAATAAAATTGATATTTATTTATTGTCTGGTTCTTTAAAAGCATCAGAATTTATCTGTTTAAAATATAGACCACAAATTAACAATAAGATGTTAATAACAAGATGTCATTAACACTTCTACACTAGTAGAAGCCATAGGATTGAGACCACATACTGTTTTCCCCAGTGTAGGTCAGAATAGATGCAGGGCAGGAGGTGAAAGTCAGTGATTATAGCCAGGGGTGTAAGGAAGCCACTAGGGAGCTTTGTCATTCAACACTATCATGCCTGTTTACTCTTATTAAAGTAAAGAAGCATGATAATGTTGACAGACGGCAATATCTTGGGCTTGGGAATCAAACACAACTGGATTAGAATTATGGTTCCATTAATTTTACTCATGAGTTCCTTGCCAAGTTTCAAAAACATATCCAAGTCTCAGTTTTGTCATCTGTAAAATGTAAAATCATAGGGTTAGAAAACAATAGCTTAGAACCATCTGAGCCCAGGACATCCCAGGTGCTAGTGCTATAGGCCCCCTCCACATGATCTCATTCTGGTCTGCAGAGTCTGGGCACAGTTCTTCCTAAGGAGGAGCGCTCACTCAATTATGATTAATAATAACAATACAGGACTAAAGGTAGTCATAACAGCCACCACTGGAACAACCCTACTCTATCTAGGAAAGGTGTTGGTGAGAGATGCTTTCATTTACACACACTTGGTGTGTTCTTACCTAGTGCTTTCAGATATTACGTTACATGGATTCTAGGGAGAGCCACACAGTTGTGTATAAGAATCACACACAATGATACTTCTACCTACTGTTGCTGATTTTTTTCTGCTCCTTGAAACTTGACCAGCTTGTCCTACTTTTGTTCTCACCTCTCCTTGTACAAGATGCAGTGAGGGAAAAAAGCCACTCACATGATTTATCTGACTCAAAACCATCATTCTCCTCTCCAAATTTCTTTATACTTCGAAGAATTACTGAGTCAGACATGGTAATTGCAACCCACAGCCAACGACCCTATAAAATAAAATAAAAGAATCATTGCAATTATTATCTCTTCTTTCTTCTTTAATCAAAGTAGCCAAACGAAAGAACAATTTGGTTCAAGAAATAATCTTTACTAATCAATCTCAGACAAAAGTTTTAAAATCGGTTAATAACTCCCTGAAAGAGCCTAATTATCAGGAAAGATAAGCCACAGTCATTGATAAAGGTTTTCTCTAGTTGTTACATGGATGGTTGTTTTTTATAGCTTAATTATAGGAAAGATAAAGCAAAACCATTGATAAATTTTCCTCTAGTTGTTGGATGGATGGTTATTCTTTCTGCTTATCTGTGCTTTATTTATTTTTAATGAGAAAACATTAAAACCATGAGAAAGGCAAACCAACTGGTGATATTCTTGAGTCACTGTAGTTGATGAACGACACCCACATACTGTTGGGTAACCTTCAGTGTTCCTTTGTAAATGCAACCTCAAGGTAAGGTGAGTCAAGCTTGGATCAAAGGAACAGAAGGAAGACATTTTCTAAATAAAATGTAAATGTCGACAGAGTCATGATTAGTCTTATTCACAGTGGAAAAATTAGTTTATAGAGGGTACAGGCTGAGAATTCCAGGATATAGACACTCGATTCAGCATGAAGTTTATGCTTCACTAACTTTCTCTGCTTCAAATATATAGCAATGGTGGATAACATGTTTTTAAAAAGAGATACAGTCAGACTCAAATAAATAAAAATAAACATCTTCAGGAACCAGAAATGGCAGAGAAGTACCGAAGAGTAAGCAGAGCACAGAAGCAGC-A	1	exonic	startloss	exon2	8
+chr2-169013382-G-T	2	exonic	stopgain	exon5	9
+chr2-168932415-GT-G	2	exonic	frameshift deletion	exon24	1
+chr2-168923783-TCCGAC-T	1	exonic	frameshift deletion	exon28	1
+chr2-168944962-C-A	1	splicing	splicing	exon20	7
+chr2-168976688-C-G	2	splicing	splicing	exon12	7
+chr2-168944934-G-A	1	exonic	stopgain	exon20	9
+chr2-168935314-G-A	1	exonic	stopgain	exon23	9
+chr2-168932375-AC-A	5	splicing	splicing	exon24	7
+chr2-168969419-CT-C	4	exonic	frameshift deletion	exon16	1
+chr2-168990800-C-T	6	splicing	splicing	exon9	7
+chr2-168957962-A-G	4	splicing	splicing	exon19	7
+chr2-168957991-A-C	3	exonic	stopgain	exon19	9
+chr2-168957963-C-A	5	splicing	splicing	exon19	7
+chr2-168936435-T-A	6	splicing	splicing	exon22	7
+chr2-169018115-G-C	1	exonic	stopgain	exon2	9
+chr2-168971942-T-C	2	exonic	nonsynonymous SNV	exon14	6
+chr2-168979865-C-A	4	splicing	splicing	exon11	7
+chr2-168924799-T-C	4	exonic	nonsynonymous SNV	exon27	6
+chr2-168970094-G-C	3	exonic	stopgain	exon15	9
+chr2-168924745-C-G	2	exonic	nonsynonymous SNV	exon27	6
+chr2-168924676-A-C	4	exonic	stopgain	exon27	9
+chr2-168995418-C-A	3	exonic	nonsynonymous SNV	exon7	6
+chr2-168986232-CTA-C	2	exonic	frameshift deletion	exon10	1
+chr2-168970169-C-T	7	exonic	nonsynonymous SNV	exon15	6
+chr2-168957987-A-AG	4	exonic	frameshift insertion	exon19	2
+chr2-168972043-A-T	5	exonic	nonsynonymous SNV	exon14	6
+chr2-168923783-TC-T	2	exonic	frameshift deletion	exon28	1
+chr2-168927188-G-A	2	exonic	stopgain	exon26	9
+chr2-168976613-AT-A	2	exonic	frameshift deletion	exon12	1
+chr2-169013458-C-T	3	exonic	nonsynonymous SNV	exon5	6
+chr2-168944720-C-T	5	exonic	nonsynonymous SNV	exon21	6
+chr2-169013398-T-A	2	exonic	nonsynonymous SNV	exon5	6
+chr2-168996703-C-A	2	exonic	stopgain	exon6	9
+chr2-168944672-TC-T	2	exonic	frameshift deletion	exon21	1
+chr2-168923642-TG-T	3	exonic	frameshift deletion	exon28	1
+chr2-168971927-T-A	5	exonic	stopgain	exon14	9
+chr2-168924753-C-G	6	exonic	nonsynonymous SNV	exon27	6
+chr2-169013371-A-C	1	exonic	stopgain	exon5	9
+chr2-168927290-C-A	2	exonic	stopgain	exon26	9
+chr2-168995477-G-T	2	exonic	stopgain	exon7	9
+chr2-168972025-C-A	2	exonic	nonsynonymous SNV	exon14	6
+chr2-168927335-CT-C	3	exonic	stopgain	exon26	9
+chr2-168979981-T-C	3	splicing	splicing	exon11	7
+chr2-168993762-A-AT	1	exonic	frameshift insertion	exon8	2
+chr2-168986112-G-A	3	exonic	stopgain	exon10	9
+chr2-168923655-G-C	1	exonic	stopgain	exon28	9
+chr2-169014339-CT-C	1	exonic	frameshift deletion	exon4	1
+chr2-168971935-C-T	4	exonic	nonsynonymous SNV	exon14	6
+chr2-168958130-T-C	3	splicing	splicing	exon19	7
+chr2-168958110-G-A	2	exonic	stopgain	exon19	9
+chr2-168944612-A-T	2	exonic	nonsynonymous SNV	exon21	6
+chr2-168936342-C-A	3	exonic	nonsynonymous SNV	exon22	6
+chr2-168986286-T-C	1	splicing	splicing	exon10	7
+chr2-168990800-C-A	3	splicing	splicing	exon9	7
+chr2-168971996-G-A	2	exonic	stopgain	exon14	9
+chr2-168979960-ACT-A	2	exonic	frameshift deletion	exon11	1
+chr2-168979923-CA-C	2	exonic	frameshift deletion	exon11	1
+chr2-168971900-CTA-C	2	exonic	frameshift deletion	exon14	1
+chr2-168924779-G-A	1	exonic	stopgain	exon27	9
+chr2-168996723-C-T	2	splicing	splicing	exon6	7
+chr2-168964205-C-G	2	splicing	splicing	exon18	7
+chr2-168972017-T-C	3	exonic	nonsynonymous SNV	exon14	6
+chr2-168971941-T-G	4	exonic	nonsynonymous SNV	exon14	6
+chr2-168958035-C-G	2	exonic	nonsynonymous SNV	exon19	6
+chr2-168930747-G-T	3	exonic	nonsynonymous SNV	exon25	6
+chr2-168936421-G-A	3	exonic	stopgain	exon22	9
+chr2-168932376-C-A	2	splicing	splicing	exon24	7
+chr2-168979865-C-T	2	splicing	splicing	exon11	7
+chr2-168923644-GT-G	1	exonic	frameshift deletion	exon28	1
+chr2-168936435-T-G	1	splicing	splicing	exon22	7
+chr2-168930696-T-TC	1	exonic	frameshift insertion	exon25	2
+chr2-168993884-T-A	1	splicing	splicing	exon8	7
+chr2-168996724-T-C	1	splicing	splicing	exon6	7
+chr2-168927194-G-A	3	exonic	stopgain	exon26	9
+chr2-168986285-C-T	3	splicing	splicing	exon10	7
+chr2-168990800-C-G	3	splicing	splicing	exon9	7
+chr2-168995461-C-A	1	exonic	nonsynonymous SNV	exon7	6
+chr2-168930676-G-A	2	exonic	stopgain	exon25	9
+chr2-168932457-T-A	1	exonic	stopgain	exon24	9
+chr2-168957982-TA-T	1	exonic	frameshift deletion	exon19	1
+chr2-168976576-C-T	1	splicing	splicing	exon12	7
+chr2-169016781-G-C	1	exonic	stopgain	exon3	9
+chr2-169016801-T-G	1	splicing	splicing	exon3	7
+chr2-168970062-G-A	1	exonic	stopgain	exon15	9
+chr2-168970146-C-A	2	exonic	nonsynonymous SNV	exon15	6
+chr2-168935426-C-T	1	splicing	splicing	exon23	7
+chr2-168935237-T-C	2	exonic	synonymous SNV	exon23	10
+chr2-168971917-G-C	5	exonic	nonsynonymous SNV	exon14	6
+chr2-168993830-G-A	2	exonic	stopgain	exon8	9
+chr2-168924745-C-A	2	exonic	nonsynonymous SNV	exon27	6
+chr2-168944726-CTTTTT-C	1	exonic	frameshift deletion	exon21	1
+chr2-168924781-G-AA	1	exonic	frameshift substitution	exon27	3
+chr2-168936412-TCC-T	1	exonic	frameshift deletion	exon22	1
+chr2-168927159-TG-T	1	exonic	frameshift deletion	exon26	1
+chr2-168923658-GT-G	1	exonic	frameshift deletion	exon28	1
+chr2-168923817-CA-C	1	exonic	frameshift deletion	exon28	1
+chr2-168944652-C-G	3	exonic	nonsynonymous SNV	exon21	6
+chr2-168932496-C-G	2	exonic	nonsynonymous SNV	exon24	6
+chr2-168944652-C-T	3	exonic	nonsynonymous SNV	exon21	6
+chr2-168932496-C-T	2	exonic	nonsynonymous SNV	exon24	6
+chr2-169018052-G-C	1	exonic	stopgain	exon2	9
+chr2-168936256-T-A	1	exonic	stopgain	exon22	9
+chr2-168924730-C-A	1	exonic	nonsynonymous SNV	exon27	6
+chr2-168995363-AT-A	1	exonic	frameshift deletion	exon7	1
+chr2-168936351-C-T	1	exonic	stopgain	exon22	9
+chr2-168932467-A-C	1	exonic	stopgain	exon24	9
+chr2-168927316-C-G	1	exonic	nonsynonymous SNV	exon26	6
+chr2-169018048-A-C	1	splicing	splicing	exon2	7
+chr2-168932414-G-GTCCAGCA	1	exonic	frameshift insertion	exon24	2
+chr2-168936342-C-T	1	exonic	nonsynonymous SNV	exon22	6
+chr2-169013395-AC-A	1	exonic	frameshift deletion	exon5	1
+chr2-169013511-C-T	1	splicing	splicing	exon5	7
+chr2-168995394-C-T	1	exonic	stopgain	exon7	9
+chr2-168990887-A-C	1	exonic	stopgain	exon9	9
+chr2-168970157-CT-C	1	exonic	frameshift deletion	exon15	1
+chr2-168970064-AC-A	1	exonic	frameshift deletion	exon15	1
+chr2-168968439-TGGTAGCTCCCTCTGCTAAA-T	1	exonic	frameshift deletion	exon17	1
+chr2-168964269-G-T	1	exonic	stopgain	exon18	9
+chr2-168935234-A-C	1	exonic	stopgain	exon23	9
+chr2-168970120-CT-C	1	exonic	frameshift deletion	exon15	1
+chr2-168944629-AGCAAG-A	1	exonic	frameshift deletion	exon21	1
+chr2-168930845-C-CT	1	exonic	frameshift insertion	exon25	2
+chr2-168936330-A-T	1	exonic	stopgain	exon22	9
+chr2-168930693-C-A	1	exonic	nonsynonymous SNV	exon25	6
+chr2-168930694-G-T	1	exonic	nonsynonymous SNV	exon25	6
+chr2-168930757-GC-G	1	exonic	frameshift deletion	exon25	1
+chr2-168993851-CA-C	1	exonic	frameshift deletion	exon8	1
+chr2-168969377-G-A	1	exonic	stopgain	exon16	9
+chr2-168935297-G-T	1	exonic	stopgain	exon23	9
+chr2-168935392-C-CA	1	exonic	frameshift insertion	exon23	2
+chr2-168993828-CT-C	1	exonic	frameshift deletion	exon8	1
+chr2-169014356-T-A	1	splicing	splicing	exon4	7
+chr2-168990926-C-A	1	splicing	splicing	exon9	7
+chr2-169014319-ACT-A	1	exonic	frameshift deletion	exon4	1
+chr2-168971924-CTCTGCCATAGCGAATATTT-C	1	exonic	frameshift deletion	exon14	1
+chr2-168971881-G-T	1	exonic	nonsynonymous SNV	exon14	6
+chr2-168969365-C-A	1	exonic	stopgain	exon16	9
+chr2-168972001-C-A	1	exonic	nonsynonymous SNV	exon14	6
+chr2-168930697-C-A	1	exonic	stopgain	exon25	9
+chr2-168993777-C-T	1	exonic	stopgain	exon8	9
+chr2-169013435-G-A	1	exonic	stopgain	exon5	9
+chr2-168923810-CA-C	1	exonic	frameshift deletion	exon28	1
+chr2-168927326-G-A	1	exonic	stopgain	exon26	9
+chr2-168930803-AG-A	1	exonic	frameshift deletion	exon25	1
+chr2-168973753-G-A	1	exonic	stopgain	exon13	9
+chr2-168986281-A-T	1	exonic	stopgain	exon10	9
+chr2-168930684-TCATAGAAACGTTCCAACAGCTGAATGCTA-T	1	exonic	stopgain	exon25	9
+chr2-168986164-G-C	1	exonic	stopgain	exon10	9
+chr2-168970091-G-C	1	exonic	nonsynonymous SNV	exon15	6
+chr2-168968440-G-A	1	exonic	stopgain	exon17	9
+chr2-168944954-GAA-G	1	exonic	frameshift deletion	exon20	1
+chr2-168970182-G-A	1	exonic	stopgain	exon15	9
+chr2-168973740-C-A	1	exonic	nonsynonymous SNV	exon13	6
+chr2-168923707-AC-A	1	exonic	stopgain	exon28	9
+chr2-169013315-T-TCA	1	exonic	stopgain	exon5	9
+chr2-168924731-G-C	1	exonic	nonsynonymous SNV	exon27	6
+chr2-169013482-C-T	1	exonic	stopgain	exon5	9
+chr2-168993798-CA-C	1	exonic	frameshift deletion	exon8	1
+chr2-169013512-T-C	1	splicing	splicing	exon5	7
+chr2-168970148-A-AT	1	exonic	frameshift insertion	exon15	2
+chr2-168986272-ATT-A	1	exonic	frameshift deletion	exon10	1
+chr2-168944767-C-T	1	splicing	splicing	exon21	7
+chr2-168990926-C-G	1	splicing	splicing	exon9	7
+chr2-168970064-A-AC	1	exonic	frameshift insertion	exon15	2
+chr2-168932460-CT-A	1	exonic	frameshift substitution	exon24	3
+chr2-168927263-T-TA	1	exonic	frameshift insertion	exon26	2
+chr2-168970094-G-T	1	exonic	stopgain	exon15	9
+chr2-169013354-G-A	1	exonic	nonsynonymous SNV	exon5	6
+chr2-168936341-G-T	1	exonic	nonsynonymous SNV	exon22	6
+chr2-169018124-A-G	1	exonic	startloss	exon2	8
+chr2-168964227-AGACTTAT-A	1	exonic	frameshift deletion	exon18	1
+chr2-168969349-C-A	1	splicing	splicing	exon16	7
+chr2-168935326-TG-T	1	exonic	frameshift deletion	exon23	1
+chr2-168996677-A-C	1	exonic	stopgain	exon6	9
+chr2-168930851-CT-C	1	exonic	frameshift deletion	exon25	1
+chr2-168996679-A-AG	1	exonic	frameshift insertion	exon6	2
+chr2-168996720-A-T	1	exonic	stopgain	exon6	9
+chr2-168990824-A-AC	1	exonic	frameshift insertion	exon9	2
+chr2-168957963-C-G	1	splicing	splicing	exon19	7
+chr2-168935427-T-C	1	splicing	splicing	exon23	7
+chr2-168958024-ACC-A	1	exonic	frameshift deletion	exon19	1
+chr2-168995471-C-T	1	exonic	stopgain	exon7	9
+chr2-168970167-G-A	1	exonic	stopgain	exon15	9
+chr2-169016776-A-G	1	splicing	splicing	exon3	7
+chr2-168995393-C-T	1	exonic	stopgain	exon7	9
+chr2-168986163-C-CG	1	exonic	frameshift insertion	exon10	2
+chr2-168990910-TA-T	1	exonic	frameshift deletion	exon9	1
+chr2-168944872-GA-G	1	exonic	frameshift deletion	exon20	1
+chr2-168971849-G-A	1	exonic	stopgain	exon14	9
+chr2-169013479-A-AGC	1	exonic	frameshift insertion	exon5	2
+chr2-169018061-G-C	1	exonic	stopgain	exon2	9
+chr2-168990902-A-C	1	exonic	stopgain	exon9	9
+chr2-168935397-C-T	1	exonic	nonsynonymous SNV	exon23	6
+chr2-168969349-C-G	1	splicing	splicing	exon16	7
+chr2-168923801-T-A	1	exonic	stopgain	exon28	9
+chr2-168979850-TTTGGCTTATACATACCCTGTCTA-T	1	exonic	frameshift deletion	exon11	1
+chr2-168923697-C-CT	1	exonic	frameshift insertion	exon28	2
+chr2-168936228-AC-A	1	splicing	splicing	exon22	7
+chr2-168935297-GT-G	1	exonic	frameshift deletion	exon23	1
+chr2-168971929-C-CCATA	1	exonic	frameshift insertion	exon14	2
+chr2-168986259-G-A	1	exonic	stopgain	exon10	9
+chr2-168969381-TC-T	1	exonic	frameshift deletion	exon16	1
+chr2-168996634-C-T	1	splicing	splicing	exon6	7
+chr2-168936420-T-TGA	1	exonic	frameshift insertion	exon22	2
+chr2-168972051-C-T	1	splicing	splicing	exon14	7
+chr2-168976689-T-G	1	splicing	splicing	exon12	7
+chr2-169016801-T-C	1	splicing	splicing	exon3	7
+chr2-168970097-GT-G	1	exonic	frameshift deletion	exon15	1
+chr2-168969454-T-A	1	exonic	nonsynonymous SNV	exon16	6
+chr2-168968492-T-C	1	splicing	splicing	exon17	7
+chr2-169014356-T-C	1	splicing	splicing	exon4	7
+chr2-168969386-G-A	1	exonic	stopgain	exon16	9
+chr2-168964309-C-T	1	splicing	splicing	exon18	7
+chr2-168958129-C-T	1	splicing	splicing	exon19	7
+chr2-168944763-AT-A	1	exonic	frameshift deletion	exon21	1
+chr2-168973744-G-A	1	exonic	stopgain	exon13	9
+chr2-168990791-ATTAACCAACCT-A	1	exonic	frameshift deletion	exon9	1
+chr2-169018049-C-T	1	splicing	splicing	exon2	7
+chr2-168986108-A-G	1	splicing	splicing	exon10	7
+chr2-168936314-G-GA	1	exonic	frameshift insertion	exon22	2
+chr2-168990865-CA-C	1	exonic	frameshift deletion	exon9	1
+chr2-168924785-CA-C	1	exonic	frameshift deletion	exon27	1
+chr2-168932379-AT-A	1	exonic	frameshift deletion	exon24	1
+chr2-169013497-G-T	1	exonic	stopgain	exon5	9
+chr2-168993868-A-AT	1	exonic	frameshift insertion	exon8	2
+chr2-168958051-C-T	1	exonic	stopgain	exon19	9
+chr2-168924761-TAG-T	1	exonic	stopgain	exon27	9
+chr2-168973726-AG-A	1	exonic	frameshift deletion	exon13	1
+chr2-169013397-ATC-A	1	exonic	frameshift deletion	exon5	1
+chr2-168930674-T-TTGATCAGGATCATAGAAGGCTTACCACCTTCTA	1	exonic	stopgain	exon25	9
+chr2-168995427-TA-T	1	exonic	frameshift deletion	exon7	1
+chr2-168944653-AG-A	1	exonic	frameshift deletion	exon21	1
+chr2-169014301-A-G	1	splicing	splicing	exon4	7
+chr2-168979930-GGA-G	1	exonic	frameshift deletion	exon11	1
+chr2-168970100-G-T	1	exonic	nonsynonymous SNV	exon15	6
+chr2-168923816-G-A	1	exonic	stopgain	exon28	9
+chr2-168990916-T-A	1	exonic	stopgain	exon9	9
+chr2-168973720-C-A	1	exonic	stopgain	exon13	9
+chr2-168944868-G-A	1	exonic	stopgain	exon20	9
+chr2-168935183-C-T	1	splicing	splicing	exon23	7
+chr2-168964204-A-G	1	splicing	splicing	exon18	7
+chr2-169016777-C-T	1	splicing	splicing	exon3	7
+chr2-168944857-CTGTAG-TAAATCACTTACTGAA	1	exonic	stopgain	exon20	9
+chr2-168927363-C-T	1	splicing	splicing	exon26	7
+chr2-168957991-A-T	1	exonic	stopgain	exon19	9
+chr2-168970199-AC-A	1	exonic	frameshift deletion	exon15	1
+chr2-168971862-G-C	1	exonic	nonsynonymous SNV	exon14	6
+chr2-168968425-A-G	1	splicing	splicing	exon17	7
+chr2-168979961-C-CTA	1	exonic	stopgain	exon11	9
+chr2-169013404-A-T	1	exonic	nonsynonymous SNV	exon5	6
+chr2-168944673-CA-C	1	exonic	frameshift deletion	exon21	1
+chr2-168944719-AC-A	1	exonic	frameshift deletion	exon21	1
+chr2-168973731-T-TGAAGGAATCA	1	exonic	frameshift insertion	exon13	2
+chr2-168935289-CA-C	1	exonic	frameshift deletion	exon23	1
+chr2-168969412-TA-T	1	exonic	frameshift deletion	exon16	1
+chr2-168924793-G-C	1	exonic	nonsynonymous SNV	exon27	6
+chr2-168923664-TC-T	1	exonic	frameshift deletion	exon28	1
+chr2-168990862-C-A	1	exonic	stopgain	exon9	9
+chr2-168996723-C-A	1	splicing	splicing	exon6	7
+chr2-169013494-G-C	1	exonic	stopgain	exon5	9
+chr2-168993781-C-G	1	exonic	nonsynonymous SNV	exon8	6
+chr2-168971853-CA-C	1	exonic	frameshift deletion	exon14	1
+chr2-168969552-C-T	1	splicing	splicing	exon16	7
+chr2-168930835-CA-C	1	exonic	frameshift deletion	exon25	1
+chr2-168924700-A-G	1	exonic	nonsynonymous SNV	exon27	6
+chr2-168973721-TTCACAGGGGTCATAGAATCGCTGAATGAGTTGCAGTGCTGTACTTTTTCCAGCTCCACTGGGTCCTACCAGAGC-T	1	exonic	frameshift deletion	exon13	1
+chr2-168927317-G-C	1	exonic	nonsynonymous SNV	exon26	6
+chr2-168986124-C-A	1	exonic	stopgain	exon10	9
+chr2-169014302-C-T	1	splicing	splicing	exon4	7
+chr2-168936355-TA-T	1	exonic	frameshift deletion	exon22	1
