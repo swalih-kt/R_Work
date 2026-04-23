@@ -129,6 +129,20 @@ A pipeline for predicting the impact of regulatory variants (SNPs) on transcript
 
 ---
 
+### Step 8: Visualize a Single Variant *(Optional)*
+
+**Purpose**: Subsets the results for a specific SNP of interest, recalculates its p-value individually, and generates a motif disruption plot. The plot displays the reference vs. alternate allele motif logo side by side, highlighting how the SNP alters TF binding affinity at that position.
+
+| | |
+|---|---|
+| **Input** | `results` object, target rsID |
+| **Output** | Motif logo plot (rendered in R graphics window or saved manually) |
+| **Filter** | `effect = "strong"` — shows only strong-effect motifs for that SNP |
+
+> **Important**: This step is intended for manual inspection of individual variants of interest — for example, a top candidate SNP from Step 5 or a variant with known functional relevance. Replace `"rs1479475149"` with any rsID present in your results.
+
+---
+
 ## Output Files
 
 | File | Description |
