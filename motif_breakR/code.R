@@ -53,7 +53,7 @@ library(dplyr)
 # rsIDs where possible using check.unnamed.for.rsid = TRUE.
 
 snps <- snps.from.file(
-  file    = "motif_2026/final_variants/clean_fixed.bed",
+  file    = "motif_2026/final_variants/input_variants.bed",
   format  = "bed",
   dbSNP   = SNPlocs.Hsapiens.dbSNP155.GRCh38,
   search.genome = BSgenome.Hsapiens.UCSC.hg38,
