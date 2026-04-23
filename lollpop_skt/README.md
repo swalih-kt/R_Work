@@ -1,116 +1,85 @@
+# HLCS Mutation Lollipop Plot
 
-## 🔷 Figure — HLCS Gene Lollipop Plot (Mutation Distribution Across Protein Domains)
-
-This script generates a **publication-quality lollipop plot** showing mutation positions across the **HLCS gene**, annotated by mutation type and protein domains.
-
----
-
-### 📌 Input File Format (TSV)
-
-| Column Name | Description |
-|-------------|-------------|
-| `POS` | Amino acid / nucleotide position of variant |
-| `AACHANGE` | Amino-acid change annotation |
-| `frequency` | Frequency of mutation |
-| `RANK` | Grouping index representing mutation class (e.g., Frameshift, Nonsynonymous, etc.) |
-
-Example input file:  
-`HLCS_lollipop_Final.tsv`
+An R-based visualization pipeline for plotting protein-level mutations in the **HLCS** gene using a lollipop plot. Mutations are annotated with ACMG pathogenicity classification, mutation type (color-coded by RANK), and overlaid on protein domain architecture. Built using the `trackViewer` Bioconductor package.
 
 ---
 
-### 📊 Output
+## Requirements
 
-| Output | Description |
+- **R v4.0 or later**
+- R packages:
+  - `trackViewer`
+  - `grid`
+
+---
+
+## Input File
+
+**`HLCS_lollipop_Final.tsv`** — Tab-separated file containing curated HLCS variants with the following columns:
+
+| Column | Description |
 |--------|-------------|
-| *(screen plot)* | HLCS mutation lollipop plot with mutation types and protein domains |
-| *(optional PNG/PDF export can be added if required)* | — |
+| `HGVS_NM` | HGVS nucleotide notation (transcript-level, e.g. `NM_001352514.2:c.2611_2614del`) |
+| `frequency` | Number of times the variant has been independently curated and classified under ACMG criteria from publicly available databases (e.g. ClinVar, HGMD, literature) |
+| `ACMG` | ACMG pathogenicity classification (`Pathogenic`, `Likely pathogenic`) |
+| `AACHANGE` | Amino acid change notation (e.g. `K871Gfs*26`, `H816Y`) |
+| `POS` | Amino acid position on the protein (used as x-axis coordinate) |
+| `MutationEffect` | Functional consequence (`frameshift deletion`, `frameshift insertion`, `nonsynonymous`, `stopgain`) |
+| `RANK` | Integer rank (1–5) encoding mutation type — used for color assignment in the plot |
+
+### RANK to Mutation Type Mapping
+
+| RANK | Mutation Type | Color |
+|------|--------------|-------|
+| 1 | Frameshift deletion | `#ff4000` (red-orange) |
+| 2 | Frameshift insertion | `#990099` (purple) |
+| 3 | Frameshift substitution | `#ff00d6` (magenta) |
+| 4 | Nonsynonymous | `#118ab2` (blue) |
+| 5 | Stopgain | `#66c2a5` (teal) |
+
+> **Note**: `frequency` reflects how many times a variant has been independently curated and assigned an ACMG classification from publicly available databases such as ClinVar, HGMD, and published literature — it is **not** population allele frequency. A higher frequency indicates stronger evidence through repeated independent curation. The variant with the **highest frequency** is the only one labeled directly on the plot to avoid overcrowding.
 
 ---
 
-### 🧬 R Code
+## Protein Domain Annotations
 
-```r
-# ========================================================
-# 📌 HLCS Mutation Lollipop Plot — Protein Domain Annotation
-# ========================================================
+Two HLCS protein domains are drawn on the lollipop baseline:
 
-setwd("/home/treesa/R_files/input_files/HLCS")
+| Domain | Amino Acid Range | Color |
+|--------|-----------------|-------|
+| BPL_LPL Catalytic Domain | 601 – 798 | `#66c2a5` (teal) |
+| BPL C-Terminal Domain | 816 – 862 | `#fc8d62` (orange) |
 
-library(trackViewer)
-library(grid)  # for manual legend placement
+The full protein length is **873 amino acids** (`NM_001352514.2`).
 
-# Load mutation data
-data <- read.table("HLCS_lollipop_Final.tsv", header = TRUE, sep = "\t")
+---
 
-# Mutation positions
-sele <- data$POS
+## Output
 
-# Assign label only to mutation with highest frequency
-names <- rep("", length(sele))
-names[which(data$frequency == max(data$frequency))] <- data$AACHANGE[which(data$frequency == max(data$frequency))]
+A lollipop plot rendered in the R graphics device showing:
 
-# GRanges object for mutation events
-y <- GRanges("chr1", IRanges(sele, width = 1))
-y$score <- data$frequency
-y$label.parameter.rot <- 45
+- **X-axis**: Amino acid position (1–873)
+- **Y-axis**: Variant frequency (curation count)
+- **Lollipop color**: Mutation type (by RANK)
+- **Lollipop size**: Fixed (`cex = 0.6`)
+- **Label**: Amino acid change shown only for the highest-frequency variant
+- **Domain bar**: Protein domains drawn at the base of the plot
+- **Legends**: Mutation type (left) and protein domain (right)
+- **Title**: Gene name (`HLCS`) and transcript (`NM_001352514.2`)
 
-# Mutation-type colors
-group_colors <- c("#ff4000", "#990099", "#ff00d6", "#118ab2", "#66c2a5")
-group <- data$RANK
-y$color <- group_colors[group]
-y$cex <- 0.6
-y$border <- sample(c("gray80"))
+---
 
-# GRanges object for protein domains
-feature <- GRanges(
-  "chr1",
-  IRanges(c(601, 816), width = c(198, 47))
-)
-feature$fill <- c("#66c2a5", "#fc8d62")
+## Notes
 
-# Draw lollipop plot
-lolliplot(
-  y, feature,
-  legend = NULL,
-  ranges = GRanges("chr1", IRanges(1, 873)),
-  yaxis = FALSE
-)
+- The plot is drawn using `lolliplot()` from `trackViewer` with `yaxis = FALSE` — axis tick labels are added manually using `grid.text()` for full layout control.
+- Lollipop head borders are set to `gray80` for visual separation between overlapping points.
+- Legends are placed manually using `grid` viewport coordinates (`legendGrob` + `editGrob`) to allow precise positioning independent of plot margins.
+- The label rotation is set to 45° (`label.parameter.rot = 45`) for readability at dense positions.
 
-# Axis positions
-grid.text("1", x = 0.1, y = 0.073)
-grid.text("|", x = 0.101, y = 0.105)
-grid.text("873", x = 0.942, y = 0.073)
-grid.text("|", x = 0.944, y = 0.105)
+---
 
-# Title & subtitles
-grid.text("NM_001352514.2", x = .18, y = .85, gp = gpar(cex = 2))
-grid.text("Mutation_Type", x = .198, y = .72, gp = gpar(cex = 2))
-grid.text("HLCS", x = .5, y = .98, gp = gpar(cex = 1.5, fontface = "bold"))
+## References
 
-# Legend — Mutation types
-legend_labels <- c(
-  "Frameshift_deletion", "Frameshift_insertion", "Frameshift_substitution",
-  "Nonsynonymous", "Stopgain"
-)
-legend_colors <- c("#ff4000", "#990099", "#ff00d6", "#118ab2", "#66c2a5")
-
-legend_x <- unit(0.3, "npc")
-legend_y <- unit(0.62, "npc")
-legend_grob <- legendGrob(labels = legend_labels, pch = 20,
-                          gp = gpar(col = legend_colors, cex = 2),
-                          ncol = 2)
-grid.draw(editGrob(legend_grob, vp = viewport(x = legend_x, y = legend_y)))
-
-# Legend — Protein domains
-legend_labels <- c("BPL_LPL_Catalytic_Domain", "BPL_C_Terminal_Domain")
-legend_colors <- c("#66c2a5", "#fc8d62")
-
-grid.text("Domain", x = .72, y = .72, gp = gpar(cex = 2))
-
-legend_x <- unit(0.8, "npc")
-legend_y <- unit(0.65, "npc")
-legend_grob <- legendGrob(labels = legend_labels, pch = 15,
-                          gp = gpar(col = legend_colors, cex = 2),
-                          ncol = 1)
-grid.draw(editGrob(legend_grob, vp = viewport(x = legend_x, y = legend_y)))
+- [trackViewer Bioconductor Package](https://bioconductor.org/packages/release/bioc/html/trackViewer.html)
+- [HLCS Gene — OMIM](https://www.omim.org/entry/609018)
+- [ClinVar HLCS Variants](https://www.ncbi.nlm.nih.gov/clinvar/?term=HLCS)
