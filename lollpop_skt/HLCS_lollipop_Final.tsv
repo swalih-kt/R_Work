@@ -1,0 +1,176 @@
+HGVS_NM	frequency	ACMG	AACHANGE	POS	MutationEffect	RANK
+NM_001352514.2:c.2611_2614del	1	Likely pathogenic	K871Gfs*26	871	frameshift deletion	1
+NM_001352514.2:c.2600del	1	Likely pathogenic	L867Pfs*31	867	frameshift deletion	1
+NM_001352514.2:c.2587_2588del	1	Pathogenic	M863Afs*32	863	frameshift deletion	1
+NM_001352514.2:c.2567del	1	Pathogenic	P856Rfs*9	856	frameshift deletion	1
+NM_001352514.2:c.2527C>T	1	Pathogenic	Q843*	843	stopgain	5
+NM_001352514.2:c.2446C>T	2	Likely pathogenic	H816Y	816	nonsynonymous 	4
+NM_001352514.2:c.2434C>T	3	Pathogenic	R812*	812	stopgain	5
+NM_001352514.2:c.2361_2362insT	1	Pathogenic	V788Cfs*108	788	frameshift insertion	2
+NM_001352514.2:c.2341G>A	3	Likely pathogenic	D781N	781	nonsynonymous 	4
+NM_001352514.2:c.2333del	1	Pathogenic	L778*	778	stopgain	5
+NM_001352514.2:c.2280dup	1	Pathogenic	N761Qfs*9	761	frameshift insertion	2
+NM_001352514.2:c.2279T>C	1	Likely pathogenic	I760T	760	nonsynonymous 	4
+NM_001352514.2:c.2260dup	1	Pathogenic	S754Kfs*2	754	frameshift insertion	2
+NM_001352514.2:c.2201C>G	1	Pathogenic	S734*	734	stopgain	5
+NM_001352514.2:c.2182G>A	4	Pathogenic	G728S	728	nonsynonymous 	4
+NM_001352514.2:c.2152G>A	3	Likely pathogenic	D718N	718	nonsynonymous 	4
+NM_001352514.2:c.2144G>A	1	Pathogenic	W715*	715	stopgain	5
+NM_001352514.2:c.2134C>T	5	Pathogenic	R712*	712	stopgain	5
+NM_001352514.2:c.2092del	1	Pathogenic	E698Kfs*3	698	frameshift deletion	1
+NM_001352514.2:c.2089G>A	9	Pathogenic	V697M	697	nonsynonymous 	4
+NM_001352514.2:c.2065C>T	2	Pathogenic	Q689*	689	stopgain	5
+NM_001352514.2:c.2044G>T	1	Pathogenic	G682*	682	stopgain	5
+NM_001352514.2:c.1985G>A	1	Likely pathogenic	S662N	662	nonsynonymous 	4
+NM_001352514.2:c.1974dup	3	Pathogenic	V659Cfs*65	659	frameshift insertion	2
+NM_001352514.2:c.1963C>T	16	Pathogenic	R655W	655	nonsynonymous 	4
+NM_001352514.2:c.1957A>T	1	Pathogenic	K653*	653	stopgain	5
+NM_001352514.2:c.1942del	1	Pathogenic	R648Gfs*14	648	frameshift deletion	1
+NM_001352514.2:c.1902_1903del	1	Pathogenic	F634Lfs*89	634	frameshift deletion	1
+NM_001352514.2:c.1869del	1	Pathogenic	T624Qfs*9	624	frameshift deletion	1
+NM_001352514.2:c.1858_1868del	1	Pathogenic	E620Hfs*100	620	frameshift deletion	1
+NM_001352514.2:c.1850T>C	3	Likely pathogenic	L617S	617	nonsynonymous 	4
+NM_001352514.2:c.1808A>G	4	Likely pathogenic	Y603C	603	nonsynonymous 	4
+NM_001352514.2:c.1781C>G	1	Pathogenic	S594*	594	stopgain	5
+NM_001352514.2:c.1771G>T	1	Pathogenic	E591*	591	stopgain	5
+NM_001352514.2:c.1759_1760insCC	1	Likely pathogenic	V587Afs*2	587	frameshift insertion	2
+NM_001352514.2:c.1752_1759delinsTTT	1	Likely pathogenic	P585Ffs*137	585	frameshift substitution	3
+NM_001352514.2:c.1719C>A	1	Pathogenic	Y573*	573	stopgain	5
+NM_001352514.2:c.1698_1701del	1	Pathogenic	L567Dfs*10	567	frameshift deletion	1
+NM_001352514.2:c.1699_1700del	1	Pathogenic	L567*	567	frameshift deletion	1
+NM_001352514.2:c.1646G>A	1	Pathogenic	W549*	549	stopgain	5
+NM_001352514.2:c.1642C>T	1	Pathogenic	Q548*	548	stopgain	5
+NM_001352514.2:c.1634del	1	Likely pathogenic	P545Lfs*16	545	frameshift deletion	1
+NM_001352514.2:c.1627_1628del	1	Likely pathogenic	R543Gfs*25	543	frameshift deletion	1
+NM_001352514.2:c.1610C>A	1	Likely pathogenic	S537*	537	stopgain	5
+NM_001352514.2:c.1576C>T	1	Pathogenic	Q526*	526	stopgain	5
+NM_001352514.2:c.1552del	1	Pathogenic	G519Afs*6	519	frameshift deletion	1
+NM_001352514.2:c.1543del	1	Likely pathogenic	L515*	515	stopgain	5
+NM_001352514.2:c.1529T>A	4	Likely pathogenic	V510D	510	nonsynonymous 	4
+NM_001352514.2:c.1524C>G	1	Likely pathogenic	Y508*	508	stopgain	5
+NM_001352514.2:c.1496T>A	1	Pathogenic	L499*	499	stopgain	5
+NM_001352514.2:c.1466_1472delinsGCA	1	Likely pathogenic	N489Sfs*26	489	frameshift substitution	3
+NM_001352514.2:c.1439T>A	2	Likely pathogenic	V480E	480	nonsynonymous 	4
+NM_001352514.2:c.1434C>A	1	Pathogenic	C478*	478	stopgain	5
+NM_001352514.2:c.1418dup	1	Pathogenic	E474Rfs*25	474	frameshift insertion	2
+NM_001352514.2:c.1404del	1	Likely pathogenic	F468Lfs*15	468	frameshift deletion	1
+NM_001352514.2:c.1358_1359del	1	Likely pathogenic	H453Pfs*4	453	frameshift deletion	1
+NM_001352514.2:c.1351C>T	1	Likely pathogenic	Q451*	451	stopgain	5
+NM_001352514.2:c.1315del	1	Likely pathogenic	Q439Rfs*24	439	frameshift deletion	1
+NM_001352514.2:c.1302_1303insC	1	Likely pathogenic	G435Rfs*23	435	frameshift insertion	2
+NM_001352514.2:c.1276G>T	2	Likely pathogenic	E426*	426	stopgain	5
+NM_001352514.2:c.1250T>A	1	Pathogenic	L417*	417	stopgain	5
+NM_001352514.2:c.1223del	6	Pathogenic	G408Vfs*20	408	frameshift deletion	1
+NM_001352514.2:c.1156C>T	1	Pathogenic	Q386*	386	stopgain	5
+NM_001352514.2:c.1151T>C	6	Likely pathogenic	L384P	384	nonsynonymous 	4
+NM_001352514.2:c.1132C>T	1	Pathogenic	Q378*	378	stopgain	5
+NM_001352514.2:c.1096dup	3	Pathogenic	I366Nfs*58	366	frameshift insertion	2
+NM_001352514.2:c.1088T>G	9	Likely pathogenic	L363R	363	nonsynonymous 	4
+NM_001352514.2:c.1045del	1	Likely pathogenic	E349Rfs*56	349	frameshift deletion	1
+NM_001352514.2:c.1045G>T	1	Pathogenic	E349*	349	stopgain	5
+NM_001352514.2:c.1041del	1	Likely pathogenic	L348Wfs*57	348	frameshift deletion	1
+NM_001352514.2:c.1025dup	1	Pathogenic	Y342*	342	stopgain	5
+NM_001352514.2:c.1016_1017del	1	Likely pathogenic	I339Rfs*84	339	frameshift deletion	1
+NM_001352514.2:c.989G>C	2	Likely pathogenic	R330P	330	nonsynonymous 	4
+NM_001352514.2:c.978_979insTGTCTCTTATACACAT	1	Likely pathogenic	H327Cfs*19	327	frameshift insertion	2
+NM_001352514.2:c.886G>T	1	Pathogenic	E296*	296	stopgain	5
+NM_001352514.2:c.863del	1	Likely pathogenic	S288Mfs*117	288	frameshift deletion	1
+NM_001352514.2:c.857T>A	1	Pathogenic	L286*	286	stopgain	5
+NM_001352514.2:c.840C>A	1	Pathogenic	Y280*	280	stopgain	5
+NM_001352514.2:c.821_822insTTCCATTG	1	Likely pathogenic	I275Sfs*133	275	frameshift insertion	2
+NM_001352514.2:c.794_795del	1	Likely pathogenic	E265Vfs*18	265	frameshift deletion	1
+NM_001352514.2:c.774_775insTGTTCTCGGCAGACGCAAA	1	Likely pathogenic	L259Cfs*8	259	frameshift insertion	2
+NM_001352514.2:c.763G>T	1	Likely pathogenic	E255*	255	stopgain	5
+NM_001352514.2:c.759C>A	1	Likely pathogenic	C253*	253	stopgain	5
+NM_001352514.2:c.726dup	1	Likely pathogenic	V243Rfs*2	243	frameshift insertion	2
+NM_001352514.2:c.727del	2	Likely pathogenic	V243Lfs*162	243	frameshift deletion	1
+NM_001352514.2:c.712_713del	1	Pathogenic	R238Gfs*6	238	frameshift deletion	1
+NM_001352514.2:c.691G>T	1	Pathogenic	E231*	231	stopgain	5
+NM_001352514.2:c.664_667del	1	Likely pathogenic	Q222Gfs*182	222	frameshift deletion	1
+NM_001352514.2:c.664C>T	1	Pathogenic	Q222*	222	stopgain	5
+NM_001352514.2:c.616del	1	Likely pathogenic	E206Sfs*199	206	frameshift deletion	1
+NM_001352514.2:c.569_585delinsTTGCTTGAGATTAAGCCTGAGATTAAGG	1	Pathogenic	P190Lfs*3	190	stopgain	5
+NM_001352514.2:c.542C>A	1	Pathogenic	S181*	181	stopgain	5
+NM_001352514.2:c.535C>T	1	Pathogenic	Q179*	179	stopgain	5
+NM_001352514.2:c.481dup	1	Pathogenic	Q161Pfs*17	161	frameshift insertion	2
+NM_001352514.2:c.569_570insTTGA	1	Likely pathogenic	K191*	191	stopgain	5
+NM_001352514.2:c.1326del	2	Likely pathogenic	V443Sfs*20	443	frameshift deletion	1
+NM_001352514.2:c.1494dup	2	Likely pathogenic	L500Afs*7	500	frameshift insertion	2
+NM_001352514.2:c.1521A>C	3	Likely pathogenic	R507S	507	nonsynonymous 	4
+NM_001352514.2:c.1826C>T	2	Likely pathogenic	T609I	609	nonsynonymous 	4
+NM_001352514.2:c.1974T>A	4	Likely pathogenic	N658K	658	nonsynonymous 	4
+NM_001352514.2:c.1994G>A	1	Likely pathogenic	G665E	665	nonsynonymous 	4
+NM_001352514.2:c.2030del	3	Pathogenic	L677Rfs*15	677	frameshift deletion	1
+NM_001352514.2:c.2081T>G	2	Likely pathogenic	V694G	694	nonsynonymous 	4
+NM_001352514.2:c.2185G>A	4	Likely pathogenic	G729R	729	nonsynonymous 	4
+NM_001352514.2:c.2431del	2	Likely pathogenic	Y811Tfs*42	811	frameshift deletion	1
+NM_001352514.2:c.2434del	2	Likely pathogenic	R812Dfs*41	812	frameshift deletion	1
+NM_001352514.2:c.1284del	1	Likely pathogenic	K428Nfs*5	428	frameshift deletion	1
+NM_001352514.2:c.1494del	1	Likely pathogenic	L499Cfs*17	499	frameshift deletion	1
+NM_001352514.2:c.2341G>T	2	Likely pathogenic	D781Y	781	nonsynonymous 	4
+NM_001352514.2:c.1275del	2	Likely pathogenic	S425Rfs*3	425	frameshift deletion	1
+NM_001352514.2:c.1447_1448del	2	Likely pathogenic	E483Tfs*15	483	frameshift deletion	1
+NM_001352514.2:c.1508del	1	Likely pathogenic	S503Tfs*13	503	frameshift deletion	1
+NM_001352514.2:c.1925T>G	1	Pathogenic	L642*	642	stopgain	5
+NM_001352514.2:c.2398del	1	Pathogenic	D800Tfs*53	800	frameshift deletion	1
+NM_001352514.2:c.529A>T	1	Likely pathogenic	K177*	177	stopgain	5
+NM_001352514.2:c.2379del	1	Pathogenic	K793Nfs*2	793	frameshift deletion	1
+NM_001352514.2:c.1440_1443dup	1	Likely pathogenic	L482Afs*18	482	frameshift insertion	2
+NM_001352514.2:c.1570dup	1	Likely pathogenic	M524Nfs*45	524	frameshift insertion	2
+NM_001352514.2:c.1493del	1	Likely pathogenic	N498Tfs*18	498	frameshift deletion	1
+NM_001352514.2:c.1600dup	1	Likely pathogenic	Y534Lfs*35	534	frameshift insertion	2
+NM_001352514.2:c.1648_1649insATAAGAGGGATATG	1	Likely pathogenic	L550Hfs*16	550	frameshift insertion	2
+NM_001352514.2:c.1935dup	1	Pathogenic	A646Rfs*78	646	frameshift insertion	2
+NM_001352514.2:c.749del	1	Likely pathogenic	L250Rfs*155	250	frameshift deletion	1
+NM_001352514.2:c.1610C>G	1	Likely pathogenic	S537*	537	stopgain	5
+NM_001352514.2:c.655G>T	1	Likely pathogenic	E219*	219	stopgain	5
+NM_001352514.2:c.1980G>A	1	Pathogenic	W660*	660	stopgain	5
+NM_001352514.2:c.505C>T	1	Likely pathogenic	Q169*	169	stopgain	5
+NM_001352514.2:c.1537_1540del	1	Likely pathogenic	E513Ffs*2	513	frameshift deletion	1
+NM_001352514.2:c.1210del	1	Likely pathogenic	V404*	404	stopgain	5
+NM_001352514.2:c.1505C>G	1	Likely pathogenic	S502*	502	stopgain	5
+NM_001352514.2:c.2060_2081del	1	Pathogenic	F687Wfs*7	687	frameshift deletion	1
+NM_001352514.2:c.1091T>A	1	Likely pathogenic	L364*	364	stopgain	5
+NM_001352514.2:c.1471del	1	Likely pathogenic	V491Cfs*25	491	frameshift deletion	1
+NM_001352514.2:c.2041dup	1	Pathogenic	L681Pfs*43	681	frameshift insertion	2
+NM_001352514.2:c.2224del	1	Pathogenic	Y742Ifs*10	742	frameshift deletion	1
+NM_001352514.2:c.1445dup	1	Likely pathogenic	L482Ffs*17	482	frameshift insertion	2
+NM_001352514.2:c.2176A>T	1	Pathogenic	K726*	726	stopgain	5
+NM_001352514.2:c.2369_2373del	1	Pathogenic	V790Gfs*104	790	frameshift deletion	1
+NM_001352514.2:c.1910del	1	Pathogenic	P637Rfs*6	637	frameshift deletion	1
+NM_001352514.2:c.2038C>T	1	Pathogenic	Q680*	680	stopgain	5
+NM_001352514.2:c.2333T>G	1	Pathogenic	L778*	778	stopgain	5
+NM_001352514.2:c.2308C>T	1	Pathogenic	Q770*	770	stopgain	5
+NM_001352514.2:c.1063_1064del	1	Likely pathogenic	D355Pfs*68	355	frameshift deletion	1
+NM_001352514.2:c.1133del	1	Likely pathogenic	Q378Rfs*27	378	frameshift deletion	1
+NM_001352514.2:c.2122dup	1	Pathogenic	D708Gfs*16	708	frameshift insertion	2
+NM_001352514.2:c.857del	1	Likely pathogenic	L286Wfs*119	286	frameshift deletion	1
+NM_001352514.2:c.958del	1	Likely pathogenic	Q320Rfs*85	320	frameshift deletion	1
+NM_001352514.2:c.476dup	1	Likely pathogenic	P160Tfs*18	160	frameshift insertion	2
+NM_001352514.2:c.1289del	1	Likely pathogenic	S430Tfs*3	430	frameshift deletion	1
+NM_001352514.2:c.929del	1	Likely pathogenic	N310Tfs*95	310	frameshift deletion	1
+NM_001352514.2:c.513dup	1	Likely pathogenic	T172Hfs*6	172	frameshift insertion	2
+NM_001352514.2:c.1223dup	1	Likely pathogenic	A409Cfs*15	409	frameshift insertion	2
+NM_001352514.2:c.1600_1604del	1	Likely pathogenic	Y534Afs*33	534	frameshift deletion	1
+NM_001352514.2:c.1219_1222dup	1	Likely pathogenic	G408Efs*17	408	frameshift insertion	2
+NM_001352514.2:c.1550_1551insT	1	Likely pathogenic	L518Pfs*6	518	frameshift insertion	2
+NM_001352514.2:c.1705_1733dup	1	Likely pathogenic	E578Dfs*10	578	stopgain	5
+NM_001352514.2:c.687del	1	Likely pathogenic	S230Vfs*175	230	frameshift deletion	1
+NM_001352514.2:c.1275_1283delinsTGAGCACT	1	Likely pathogenic	V427Hfs*6	427	frameshift substitution	3
+NM_001352514.2:c.958dup	1	Likely pathogenic	Q320Pfs*21	320	frameshift insertion	2
+NM_001352514.2:c.1769dup	1	Likely pathogenic	M590Ifs*134	590	frameshift insertion	2
+NM_001352514.2:c.2140A>T	1	Pathogenic	K714*	714	stopgain	5
+NM_001352514.2:c.1799T>G	1	Pathogenic	L600*	600	stopgain	5
+NM_001352514.2:c.958C>T	1	Likely pathogenic	Q320*	320	stopgain	5
+NM_001352514.2:c.1599_1600del	1	Likely pathogenic	Y534Lfs*34	534	frameshift deletion	1
+NM_001352514.2:c.1658_1659del	1	Likely pathogenic	H553Rfs*15	553	frameshift deletion	1
+NM_001352514.2:c.2212_2213del	1	Pathogenic	G738Rfs*12	738	frameshift deletion	1
+NM_001352514.2:c.1631dup	1	Likely pathogenic	D544Efs*25	544	frameshift insertion	2
+NM_001352514.2:c.2128_2135delinsTAAAGGGTGA	1	Pathogenic	N710*	710	stopgain	5
+NM_001352514.2:c.2439C>G	1	Likely pathogenic	Y813*	813	stopgain	5
+NM_001352514.2:c.1831C>T	1	Pathogenic	Q611*	611	stopgain	5
+NM_001352514.2:c.2301C>G	1	Pathogenic	Y767*	767	stopgain	5
+NM_001352514.2:c.1444_1456delinsATAGTGCAAACTCCAACATAGTGCAAACT	1	Likely pathogenic	L482Ifs*7	482	stopgain	5
+NM_001352514.2:c.1631del	1	Likely pathogenic	D544Vfs*17	544	frameshift deletion	1
+NM_001352514.2:c.2458del	1	Pathogenic	Q820Kfs*33	820	frameshift deletion	1
+NM_001352514.2:c.1083T>A	1	Likely pathogenic	C361*	361	stopgain	5
