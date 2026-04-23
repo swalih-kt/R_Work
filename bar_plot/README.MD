@@ -1,77 +1,84 @@
+# Stacked Horizontal Bar Plot — Variant Counts per Gene by ACMG Classification
 
-## 🔷 Figure — Stacked Horizontal Bar Plot: Variant Counts per Gene (ACMG Classification)
-
-This R script generates a **publication-quality stacked horizontal bar plot** showing the number of variants per gene, grouped by ACMG classification.
-
----
-
-### 📌 Input File Format (TSV)
-
-| Column Name | Description |
-|-------------|-------------|
-| `Gene` | Gene symbol |
-| `VCF` | Variant ID |
-| `ACMG` | ACMG classification (e.g., P, LP, VUS, LB) |
-| `Database_Status` | Status such as Known / Novel |
-
-Example filename:  
-`Swalih_MD_plot_input - novel_bar.tsv`
+An R script that generates a publication-quality **stacked horizontal bar plot** showing the number of variants per gene, grouped and color-coded by ACMG pathogenicity classification. Genes are ordered by total variant count for easy visual ranking.
 
 ---
 
-### 📊 Output
+## Requirements
 
-| Output File | Description |
-|-------------|-------------|
-| `Figure3.png` | Stacked bar chart (horizontal) showing ACMG-wise variant counts per gene |
+- **R v4.0 or later**
+- R packages:
+  - `ggplot2`
+  - `dplyr`
+  - `readr`
 
 ---
 
-### 🧬 R Code
+## Input File
 
-```r
-# =============================================
-# 📌 Stacked Horizontal Bar Plot for ACMG by Gene
-# =============================================
+**`Swalih_MD_plot_input - novel_bar.tsv`** — Tab-separated file with one row per variant.
 
-setwd("/home/treesa/R_files/input_files/cr_plot_md/novel")
+| Column | Description |
+|--------|-------------|
+| `Gene` | Gene symbol (e.g. `BRCA1`, `TP53`) |
+| `VCF` | Variant identifier (e.g. HGVS notation or rsID) |
+| `ACMG` | ACMG pathogenicity classification (`Pathogenic`, `Likely pathogenic`, `VUS`, etc.) |
+| `Database_Status` | Whether the variant is `Known` or `Novel` in public databases |
 
-library(ggplot2)
-library(dplyr)
-library(readr)
+> **Note**: Column names are reassigned inside the script — the input file columns must be in the order above (Gene, VCF, ACMG, Database_Status) even if the header names differ.
 
-# Read the TSV file
-data <- read_tsv("Swalih_MD_plot_input - novel_bar.tsv")
+---
 
-# Rename columns for simplicity
-colnames(data) <- c("Gene", "VCF", "ACMG", "Database_Status")
+## What the Script Does
 
-# Summarize counts per Gene × ACMG classification
-summary_data <- data %>%
-  group_by(Gene, ACMG) %>%
-  summarise(count = n(), .groups = "drop")
+### Step 1: Load and Rename Columns
+Reads the TSV input and standardizes column names to `Gene`, `VCF`, `ACMG`, and `Database_Status` for consistency in downstream processing.
 
-# Save the figure as high-resolution PNG
-png("./Figure3.png", pointsize = 18, res = 300, width = 2500, height = 3000)
+### Step 2: Summarize Variant Counts
+Groups the data by **Gene × ACMG classification** and counts the number of variants in each combination. This produces one row per gene-ACMG pair with a `count` column.
 
-# Stacked horizontal bar plot
-ggplot(summary_data, aes(x = count, y = reorder(Gene, count), fill = ACMG)) +
-  geom_bar(stat = "identity", color = "black") +
-  geom_text(aes(label = count), position = position_stack(vjust = 0.5),
-            size = 3, color = "white") +
-  labs(
-    title = "Variant Counts per Gene by ACMG Classification",
-    x = "Count",
-    y = "Gene",
-    fill = "ACMG Classification"
-  ) +
-  theme_minimal(base_size = 13) +
-  scale_x_continuous(breaks = seq(2, 28, by = 2), limits = c(0, 28)) +
-  theme(
-    axis.text.y = element_text(face = "bold"),
-    axis.text.x = element_text(face = "bold"),
-    panel.border = element_rect(color = "black", fill = NA, linewidth = 1),
-    legend.position = "right"
-  )
+### Step 3: Generate the Plot
+Builds a stacked horizontal bar plot where:
+- **Y-axis**: Genes, ordered by total variant count (highest at top)
+- **X-axis**: Number of variants (range 0–28, ticks every 2)
+- **Fill color**: ACMG classification category
+- **Labels**: Variant count printed in white inside each stack segment
+- **Border**: Black panel border for a clean, publication-ready appearance
 
-dev.off()
+### Step 4: Save Output
+Exports the figure as a high-resolution PNG.
+
+---
+
+## Output
+
+| File | Description |
+|------|-------------|
+| `Figure3.png` | Stacked horizontal bar chart — variant counts per gene by ACMG class |
+| **Resolution** | 300 DPI |
+| **Dimensions** | 2500 × 3000 px |
+
+---
+
+## Plot Design Notes
+
+- Genes are sorted by **total variant count** using `reorder(Gene, count)` — the gene with the most variants appears at the top.
+- Each bar segment is outlined in black (`color = "black"`) to visually separate ACMG categories within a gene.
+- Count labels are centered inside each segment using `position_stack(vjust = 0.5)` and displayed in white for contrast.
+- The x-axis is fixed to a maximum of 28 with breaks every 2 units — update `scale_x_continuous()` if your dataset has more variants per gene.
+- `theme_minimal` is used as the base with a custom black panel border added for print-quality output.
+
+---
+
+## Notes
+
+- The script summarizes at the **gene level** — if multiple variants share the same Gene × ACMG combination, they are counted together into a single bar segment.
+- `Database_Status` (Known/Novel) is included in the input but not used in this plot — it can be used for additional filtering or faceting if needed.
+- Update `setwd()` and the input filename to match your local file paths before running.
+
+---
+
+## References
+
+- [ggplot2 Documentation](https://ggplot2.tidyverse.org/)
+- [ACMG Variant Classification Guidelines](https://www.acmg.net/ACMG/Medical-Genetics-Practice-Resources/Practice-Guidelines/ACMG_Content.aspx?ItemNumber=7447)
